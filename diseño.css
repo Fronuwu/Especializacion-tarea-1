@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FE96D5;
+}
+
+div.espacio{
+    width: 15%;
+}
+
+p{
+    font-size: 25px;
+}
+
+div p{
+    font-size: 15px;
+}
+
+ul{
+    display: flex;
+    width: 15%;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    float: right;
+    min-height: 16px;
+    padding: 14px;
+}
+ul li a{
+    text-decoration: none;
+}
+div{
+    padding: 20px;
+}
+div.casilla{
+    padding: 30px;
+    text-align: center;
+}
+div.foro{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #FE96D5;
+   color: black;
+   text-align: center;
+}
+###################################################################
+
+div.cTitulo{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+h1#titulo{
+    text-align: center;
+}
+
+div.formulario{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.div1{
+    width: 40%;
+    text-align: right;
+}
+p#etiqueta{
+    text-align: right;
+    font-size: 20px;
+}
+
+div.div2{
+    display: flex;
+    width: 60%;
+    float: left;
+}
+div.boton{
+    padding: 40px;
+    width: 72%;
+    text-align: right;
+}
+div.mensaje{
+    padding: 0;
+}
+.name{
+     width:550px;height:50px;
+}
+.email{
+     width:550px;height:50px;
+}
+.texto{
+    width:550px;height:100px;
+}
+
+
+
+
